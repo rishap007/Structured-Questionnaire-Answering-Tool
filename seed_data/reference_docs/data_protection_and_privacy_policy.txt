@@ -1,0 +1,27 @@
+# Data Protection & Privacy Policy
+
+## Policy Objective
+AluminaTech processes personal data to deliver alumni engagement workflows, fundraising reporting, event operations, and communication analytics for university customers.
+Data processing is designed to meet contractual and regulatory obligations.
+
+## Privacy Program Governance
+A designated Privacy Lead coordinates policy updates, data mapping, and response handling with Security and Legal teams.
+The privacy program follows privacy-by-design principles during product and feature development.
+
+## Data Subject Request Handling
+AluminaTech supports data subject requests under GDPR and CCPA, including access, deletion, correction, and portability where applicable.
+Requests are authenticated, tracked in a case management queue, and completed within legal timeframes.
+The default internal service-level target is 20 calendar days for standard requests.
+
+## Data Retention and Minimization
+Only minimum necessary personal data is collected for service delivery.
+Customer-configurable retention settings are available for selected engagement records.
+Operational metadata is retained according to security and compliance requirements.
+
+## International Transfers
+Where required, standard contractual clauses and appropriate safeguards are used for international data transfers.
+Subprocessor risk reviews are completed before onboarding and at scheduled intervals.
+
+## Consumer Privacy Rights
+For CCPA requests, AluminaTech validates requestor identity and captures request categories in an audit log.
+No selling of personal information is performed as part of core platform operations.

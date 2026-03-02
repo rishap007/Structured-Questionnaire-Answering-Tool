@@ -1,0 +1,21 @@
+# Incident Response Plan
+
+## Purpose
+This plan defines AluminaTech's response process for security and availability incidents affecting customer data or service continuity.
+
+## Severity Classification
+Incidents are classified from SEV-1 to SEV-4 based on business impact, data sensitivity, and service disruption.
+SEV-1 and SEV-2 incidents are treated as high severity.
+
+## Response Timelines
+For high-severity incidents (SEV-1/SEV-2), initial triage begins within 30 minutes of detection.
+Containment actions are initiated as quickly as possible based on incident type.
+Customer-facing updates are coordinated through the support and communications teams.
+
+## Roles and Responsibilities
+Incident Commander, Security Lead, Communications Lead, and Service Owner roles are assigned at incident start.
+All actions are documented in an incident timeline for post-incident review.
+
+## Post-Incident Activities
+A root-cause analysis and corrective action plan are completed for high-severity incidents.
+Lessons learned are reviewed with Engineering, Security, and Operations leadership.

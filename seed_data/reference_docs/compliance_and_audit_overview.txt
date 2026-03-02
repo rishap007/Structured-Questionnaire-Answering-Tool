@@ -1,0 +1,20 @@
+# Compliance & Audit Overview
+
+## Compliance Program
+AluminaTech maintains a formal compliance program aligned to customer security expectations and applicable regulations.
+Controls are mapped to recognized frameworks and reviewed on a recurring basis.
+
+## Independent Assessments
+The company undergoes an annual SOC 2 Type II audit covering Security, Availability, and Confidentiality trust criteria.
+Supporting evidence is collected continuously to maintain audit readiness.
+
+## Internal Control Reviews
+Quarterly internal control checks validate key controls for access governance, change management, and incident response.
+Control deviations are documented with owners and remediation deadlines.
+
+## Security Testing
+Vulnerability scans are run monthly, and independent penetration tests are completed annually.
+Findings are risk-ranked and tracked through remediation workflows.
+
+## Policy Management
+Security and privacy policies are reviewed at least annually and after material business or platform changes.

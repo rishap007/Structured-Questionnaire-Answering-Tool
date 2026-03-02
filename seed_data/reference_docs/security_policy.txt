@@ -1,0 +1,30 @@
+# Security Policy
+
+## Purpose and Scope
+This Security Policy defines baseline controls for all AluminaTech production systems and corporate assets. It applies to cloud infrastructure, application services, developer endpoints, and support tooling.
+
+## Encryption Standards
+All customer data is encrypted in transit using TLS 1.2+ with modern ciphers. Internal service-to-service communication also uses TLS.
+Data at rest is encrypted using AES-256 on managed storage services, including relational databases and object storage.
+Encryption keys are managed through cloud key management services with access restricted by role-based controls.
+
+## Identity and Access Management
+AluminaTech enforces single sign-on for workforce identity and role-based access controls for cloud resources.
+Multi-factor authentication is required for all administrative access to production, including cloud consoles, VPN, and privileged SaaS tools.
+Privileged access requests are time-bound and reviewed through an approval workflow.
+
+## Logging and Monitoring
+Security-relevant logs are centralized in a managed log analytics platform.
+The platform ingests infrastructure, authentication, database, and application security events.
+Logs are retained for 365 days and are immutable for the first 90 days.
+Alerting rules are configured for suspicious authentication activity, policy violations, and unusual data export behavior.
+
+## Vulnerability Management
+Authenticated vulnerability scans are performed monthly for production assets.
+Critical findings are triaged within one business day.
+External penetration testing is conducted at least annually by an independent security firm.
+
+## Backup Controls
+Production database snapshots are taken daily and retained based on data classification requirements.
+Backups are encrypted and replicated to a secondary cloud region.
+Restore tests are performed quarterly to validate backup integrity and recovery procedures.

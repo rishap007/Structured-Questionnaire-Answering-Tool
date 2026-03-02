@@ -1,0 +1,23 @@
+# Infrastructure Overview
+
+## Cloud Architecture
+AluminaTech production systems run on Amazon Web Services (AWS).
+Core services include Amazon EKS for container orchestration, Amazon RDS for relational databases, Amazon S3 for object storage, and Amazon CloudFront for content delivery.
+Workloads are distributed across multiple availability zones for resilience.
+
+## Environment Segmentation
+Development, staging, and production are isolated at network and account boundaries.
+Production access is restricted to authorized operations personnel and monitored continuously.
+
+## Business Continuity Objectives
+Core platform services target a maximum Recovery Time Objective (RTO) of 4 hours and a Recovery Point Objective (RPO) of 1 hour.
+Disaster recovery runbooks define fallback procedures and communication steps.
+
+## Backup and Replication
+Automated backups are enabled for stateful services.
+Critical data is replicated to a secondary region to support continuity scenarios.
+Periodic restore drills are run with operations and security stakeholders.
+
+## Operational Monitoring
+Metrics, logs, and traces are collected through centralized observability tooling.
+On-call responders are notified through alert routing integrated with incident management processes.

@@ -1,0 +1,13 @@
+Question
+What encryption standards are used for data at rest and data in transit?
+How is multi-factor authentication enforced for production systems?
+Where are production backups stored and how often are backup restore tests performed?
+What is the stated incident response timeline for high-severity incidents?
+How long are security logs retained, and where are they centralized?
+How does AluminaTech handle GDPR and CCPA data subject requests?
+What is the maximum RTO and RPO defined for core production services?
+Which cloud provider and core infrastructure services are used in production?
+What independent compliance audits or attestations does AluminaTech maintain?
+How frequently are vulnerability scans and penetration tests performed?
+Does AluminaTech currently operate a public bug bounty program?
+Can customers choose strict data residency only within South America regions?
